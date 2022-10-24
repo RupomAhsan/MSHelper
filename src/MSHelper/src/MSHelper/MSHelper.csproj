@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Rupom Ahsan</Authors>
+    <Company>NisusiN</Company>
+    <Description>MSHelper - a list of common helper classes that will help to build .NET Core microservices</Description>
+    <PackageId>MSHelper</PackageId>
+    <PackageTags>Microservice Helper</PackageTags>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Figgle" Version="0.4.0" />
+    <PackageReference Include="Scrutor.AspNetCore" Version="3.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

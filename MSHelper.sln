@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper", "MSHelper", "{63F419B1-227E-4F21-AB33-E265E886E00E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D402C98-48F9-49F6-BA99-0E81DFAA8612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper", "src\MSHelper\src\MSHelper\MSHelper.csproj", "{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63F419B1-227E-4F21-AB33-E265E886E00E} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{2D402C98-48F9-49F6-BA99-0E81DFAA8612} = {63F419B1-227E-4F21-AB33-E265E886E00E}
+		{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06} = {2D402C98-48F9-49F6-BA99-0E81DFAA8612}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88F722CC-21D1-43CA-99B0-1FF02005A7DD}
+	EndGlobalSection
+EndGlobal
