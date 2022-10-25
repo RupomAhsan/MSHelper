@@ -6,16 +6,20 @@ MSHelper allows you to integrate asynchronous communication with CQRS principle 
 
 ## Installation
 
-This document is for the latest MSHelper.MessageBrokers **1.0.0 release and later**.
+This document is for the latest MSHelper.MessageBrokers.CQRS **1.0.0 release and later**.
 
 `dotnet add package MSHelper.MessageBrokers.CQRS`
 
 ## Dependencies
 
 -- [MSHelper](https://www.nuget.org/packages/MSHelper)
+
 -- [MSHelper.MessageBrokers](https://www.nuget.org/packages/MSHelper.MessageBrokers)
+
 -- [MSHelper.CQRS.Commands](https://www.nuget.org/packages/MSHelper.CQRS.Commands)
+
 -- [MSHelper.CQRS.Events](https://www.nuget.org/packages/MSHelper.CQRS.Events)
+
 
 ## Usage 
 To subscribe for a particular command or event, invoke `UseRabbitMq()` method on `IApplicationBuilder` and call `SubscribeCommand<TCommand>()` or `SubscribeEvent<TCommand>()`.
@@ -30,9 +34,9 @@ public void Configure(this IApplicationBuilder app)
 
 ```
 
-Once the message is received, it gets distpatched using ICommandDispatcher or IEventDispatcher.
+Once the message is received, it gets distpatched using `ICommandDispatcher` or `IEventDispatcher`.
 
-To publish a message simply inject IBusPublsiher into any class you want and invoke SendAsync() (for commands) or PublishAsync() (for event) passing the message and correlation context.
+To publish a message simply inject `IBusPublsiher` into any class you want and invoke `SendAsync()` (for commands) or `PublishAsync()` (for event) passing the message and correlation context.
 
 ```
 public class CustomBusPublisher
