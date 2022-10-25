@@ -62,14 +62,14 @@ public IServiceProvider ConfigureServices(this IServiceCollection services)
 }
 ```
 
-Dispatching a particular command object can be also done using MSHelper package. Start with registering in-memory dispatcher on your `IMSHelperBuilder` by calling a `AddInMemoryQueryDispatcher()` method:
+Dispatching a particular command object can be also done using MSHelper package. Start with registering in-memory dispatcher on your `IMSHelperBuilder` by calling a `AddInMemoryCommandDispatcher()` method:
 
 ```
 public IServiceProvider ConfigureServices(this IServiceCollection services)
 {
     var builder = services.AddMSHelper()
         .AddCommandHandlers()
-        .AddInMemoryQueryDispatcher();
+        .AddInMemoryCommandDispatcher();
 
     //other registrations    
     return builder.Build();
