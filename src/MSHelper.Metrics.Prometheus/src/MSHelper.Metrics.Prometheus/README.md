@@ -1,4 +1,4 @@
-# MSHelper.Metrics.AppMetrics : Prometheus Integration
+# MSHelper.Metrics.Prometheus : Prometheus Integration
 :star: Star us on GitHub — it motivates us a lot!
 
 ## Overview
