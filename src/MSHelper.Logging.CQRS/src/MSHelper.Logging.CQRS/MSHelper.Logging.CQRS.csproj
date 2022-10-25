@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Rupom Ahsan</Authors>
+    <Company>NisusiN</Company>
+    <Description>MSHelper.Logging.CQRS - Centralized logging for CQRS with Serilog and Seq.</Description>
+    <PackageId>MSHelper.Logging.CQRS</PackageId>
+    <PackageTags>Microservice Logging</PackageTags>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/RupomAhsan/MSHelper</RepositoryUrl>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSHelper" Version="1.0.0" />
+    <PackageReference Include="MSHelper.CQRS.Commands" Version="1.0.0" />
+    <PackageReference Include="MSHelper.CQRS.Events" Version="1.0.0" />
+    <PackageReference Include="MSHelper.CQRS.Queries" Version="1.0.0" />
+    <PackageReference Include="MSHelper.Logging" Version="1.0.0" />
+    <PackageReference Include="SmartFormat.NET" Version="3.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="README.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>

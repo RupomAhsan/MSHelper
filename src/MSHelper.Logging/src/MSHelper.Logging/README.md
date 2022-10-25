@@ -5,8 +5,11 @@
 Adds the logging capability, by default uses Serilog for logging with 3 optional extensions (sinks):
 
 --- Console
+
 --- File
+
 --- Seq
+
 
 ## Installation
 
@@ -52,15 +55,25 @@ public class SomeService
 
 ## Options
 --- applicationName - sets the optional application name property used for log enrichment.
+
 --- serviceId - sets the optional service id property used for log enrichment.
+
 --- excludePaths - optional endpoints that should be excluded from logging (e.g. while performing the health checks by other services).
+
 --- console.enabled - enables/disables console logger.
+
 --- file.enabled - enables/disables file logger.
+
 --- file.path - path to the file logs.
+
 --- file.interval - how often should the new file with logs be created.
+
 --- seq.enabled - enables/disables Seq logger.
+
 --- seq.url - URL to Seq API.
+
 --- seq.token - API key (if provided) used while sending logs to Seq.
+
 
 ### appsettings.json
 
