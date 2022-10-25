@@ -81,7 +81,7 @@ Inside Startup.cs extend `IMSHelperBuilder` with `AddRabbitMq()` that will regis
 ```
 public IServiceProvider ConfigureServices(this IServiceCollection services)
 {
-    var builder = services.AddConvey()
+    var builder = services.AddMSHelper()
         .AddRabbitMq();
 
     //other registrations    
