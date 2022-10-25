@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Authors>Rupom Ahsan</Authors>
     <Company>NisusiN</Company>
@@ -19,12 +19,10 @@
     <PackageReference Include="MSHelper.MessageBrokers.RabbitMQ" Version="1.0.0" />
     <PackageReference Include="MSHelper.Tracing.Jaeger" Version="1.0.0" />
   </ItemGroup>
-  
   <ItemGroup>
     <None Update="README.md">
       <PackagePath>\</PackagePath>
       <Pack>True</Pack>
     </None>
   </ItemGroup>
-
 </Project>
