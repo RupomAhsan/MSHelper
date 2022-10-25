@@ -8,7 +8,7 @@ Adds an ability to create and process queries in the sense of [CQRS](https://mar
 
 This document is for the latest MSHelper.CQRS.Queries **1.0.0 release and later**.
 
-`dotnet add package Convey.CQRS.Queries`
+`dotnet add package MSHelper.CQRS.Queries`
 
 ## Dependencies
 
@@ -38,7 +38,7 @@ public class GetAccountHandler : IQueryHandler<GetAccount, AccountDto>
 }
 ```
 
-You can easily register all query handlers in DI container by calling `AddQueryHandlers()` method on `IConveyBuilder`:
+You can easily register all query handlers in DI container by calling `AddQueryHandlers()` method on `IMSHelperBuilder`:
 
 ```
 public IServiceProvider ConfigureServices(this IServiceCollection services)
