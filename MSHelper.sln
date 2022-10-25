@@ -119,6 +119,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF9331CD-5C6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Tracing.Jaeger", "src\MSHelper.Tracing.Jaeger\src\MSHelper.Tracing.Jaeger\MSHelper.Tracing.Jaeger.csproj", "{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Tracing.Jaeger.RabbitMQ", "MSHelper.Tracing.Jaeger.RabbitMQ", "{33A8155B-6333-458C-A4BC-7A1CD38CE079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4264B85-6470-4633-9706-CA9FCB029B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Tracing.Jaeger.RabbitMQ", "src\MSHelper.Tracing.Jaeger.RabbitMQ\src\MSHelper.Tracing.Jaeger.RabbitMQ\MSHelper.Tracing.Jaeger.RabbitMQ.csproj", "{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +207,10 @@ Global
 		{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,6 +273,9 @@ Global
 		{31F20696-7A77-482C-BFBE-332BD7D9735C} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
 		{DF9331CD-5C6B-4181-A37D-2B0A77787FC4} = {31F20696-7A77-482C-BFBE-332BD7D9735C}
 		{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E} = {DF9331CD-5C6B-4181-A37D-2B0A77787FC4}
+		{33A8155B-6333-458C-A4BC-7A1CD38CE079} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{A4264B85-6470-4633-9706-CA9FCB029B49} = {33A8155B-6333-458C-A4BC-7A1CD38CE079}
+		{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D} = {A4264B85-6470-4633-9706-CA9FCB029B49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88F722CC-21D1-43CA-99B0-1FF02005A7DD}

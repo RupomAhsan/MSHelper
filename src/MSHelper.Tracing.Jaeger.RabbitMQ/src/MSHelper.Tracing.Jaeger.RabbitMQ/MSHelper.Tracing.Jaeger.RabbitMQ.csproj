@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>Rupom Ahsan</Authors>
+    <Company>NisusiN</Company>
+    <Description>MSHelper.Tracing.Jaeger.RabbitMQ - Tracing distributed processes with Jaeger and RabbitMQ.</Description>
+    <PackageId>MSHelper.Tracing.Jaeger.RabbitMQ</PackageId>
+    <PackageTags>Microservice Tracing Jaeger RabbitMQ CleanArchitecture</PackageTags>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/RupomAhsan/MSHelper</RepositoryUrl>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MSHelper.MessageBrokers.RabbitMQ" Version="1.0.0" />
+    <PackageReference Include="MSHelper.Tracing.Jaeger" Version="1.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="README.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>
