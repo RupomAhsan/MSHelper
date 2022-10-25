@@ -1,14 +1,12 @@
-# MSHelper.Tracing.Jaeger.RabbitMQ : Tracing distributed processes with Jaeger and RabbitMQ.
+# MSHelper.Metrics.AppMetrics : Adds capability of generating application metrics and exposing them via HTTP endpoint.
 :star: Star us on GitHub — it motivates us a lot!
 
-## Overview
-Integrates application with [Jaeger](https://www.jaegertracing.io/) (end-to-end distributed tracing) using selected reporter and sampler.
 
 ## Installation
 
-This document is for the latest MSHelper.Tracing.Jaeger.RabbitMQ **1.0.0 release and later**.
+This document is for the latest MSHelper.Metrics.AppMetrics **1.0.0 release and later**.
 
-`dotnet add package MSHelper.Tracing.Jaeger.RabbitMQ`
+`dotnet add package MSHelper.Metrics.AppMetrics`
 
 ## Dependencies
 

@@ -131,6 +131,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AA862F4-F81
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Metrics.AppMetrics", "src\MSHelper.Metrics.AppMetrics\src\MSHelper.Metrics.AppMetrics\MSHelper.Metrics.AppMetrics.csproj", "{2F411529-00CE-4ED2-87C4-9DCC7037CD28}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Metrics.Prometheus", "MSHelper.Metrics.Prometheus", "{3166168F-0814-44DC-9E85-F09CF39BE4EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64B395B1-C75E-4850-B5BD-5DBA8CEA74F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Metrics.Prometheus", "src\MSHelper.Metrics.Prometheus\src\MSHelper.Metrics.Prometheus\MSHelper.Metrics.Prometheus.csproj", "{C05E86F6-612E-4A2D-8859-A5445CC981D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +227,10 @@ Global
 		{2F411529-00CE-4ED2-87C4-9DCC7037CD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F411529-00CE-4ED2-87C4-9DCC7037CD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F411529-00CE-4ED2-87C4-9DCC7037CD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05E86F6-612E-4A2D-8859-A5445CC981D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05E86F6-612E-4A2D-8859-A5445CC981D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05E86F6-612E-4A2D-8859-A5445CC981D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05E86F6-612E-4A2D-8859-A5445CC981D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +299,9 @@ Global
 		{8994E396-7F7C-4C84-BBA9-E9A740C982AF} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
 		{5AA862F4-F81E-4832-A4CF-3E2D2EAB8F12} = {8994E396-7F7C-4C84-BBA9-E9A740C982AF}
 		{2F411529-00CE-4ED2-87C4-9DCC7037CD28} = {5AA862F4-F81E-4832-A4CF-3E2D2EAB8F12}
+		{3166168F-0814-44DC-9E85-F09CF39BE4EC} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{64B395B1-C75E-4850-B5BD-5DBA8CEA74F4} = {3166168F-0814-44DC-9E85-F09CF39BE4EC}
+		{C05E86F6-612E-4A2D-8859-A5445CC981D5} = {64B395B1-C75E-4850-B5BD-5DBA8CEA74F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88F722CC-21D1-43CA-99B0-1FF02005A7DD}
