@@ -1,10 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <Authors>Rupom Ahsan</Authors>
     <Company>NisusiN</Company>
-    <Description>MSHelper.HTTP.RestEase - RestEase Integration</Description>
-    <PackageId>MSHelper.HTTP.RestEase</PackageId>
-    <PackageTags>Microservice HTTP RestEase</PackageTags>
+    <Description>MSHelper.Persistence.MongoDB - Adds the set of conventions and ease of use for MongoDB integration with .NET Core.</Description>
+    <PackageId>MSHelper.Persistence.MongoDB</PackageId>
+    <PackageTags>Microservice Persistence MongoDB</PackageTags>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -15,15 +16,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
-    <PackageReference Include="RestEase" Version="1.5.7" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
     <PackageReference Include="MSHelper" Version="1.0.0" />
-    <PackageReference Include="MSHelper.Discovery.Consul" Version="1.0.0" />
-    <PackageReference Include="MSHelper.HTTP" Version="1.0.0" />
-    <PackageReference Include="MSHelper.LoadBalancing.Fabio" Version="1.0.0" />
-    
+    <PackageReference Include="MSHelper.CQRS.Queries" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,4 +29,5 @@
       <Pack>True</Pack>
     </None>
   </ItemGroup>
+
 </Project>

@@ -22,7 +22,7 @@ This document is for the latest MSHelper.LoadBalancing.Fabio **1.0.0 release and
 Extend `IMSHelperBuilder` with `AddFabio()` that will register the required services.
 
 ```
-public static IMSHelperBuilder RegisterConvey(this IMSHelperBuilder builder)
+public static IMSHelperBuilder RegisterMSHelper(this IMSHelperBuilder builder)
 {
     builder
         .AddHttpClient()
