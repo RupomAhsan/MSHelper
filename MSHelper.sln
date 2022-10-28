@@ -9,157 +9,193 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper", "MSHelper", "{63
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D402C98-48F9-49F6-BA99-0E81DFAA8612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper", "src\MSHelper\src\MSHelper\MSHelper.csproj", "{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper", "src\MSHelper\src\MSHelper\MSHelper.csproj", "{88AEE32C-0059-4D9C-BDB4-2936CF1E3C06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Auth", "MSHelper.Auth", "{DE04C95F-7898-4DB2-8FBD-9B5728A0DF02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8738268C-FC89-46DF-A5B5-BF58E8D02440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Auth", "src\MSHelper.Auth\src\MSHelper.Auth\MSHelper.Auth.csproj", "{AF3CE879-0AFF-4539-A261-D5AC281E4C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Auth", "src\MSHelper.Auth\src\MSHelper.Auth\MSHelper.Auth.csproj", "{AF3CE879-0AFF-4539-A261-D5AC281E4C49}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.CQRS.Queries", "MSHelper.CQRS.Queries", "{624B0FFA-3D9E-487F-88A6-D5781B35D94A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD981B66-FFF1-4E49-B966-7CDDD3B642AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.CQRS.Queries", "src\MSHelper.CQRS.Queries\src\MSHelper.CQRS.Queries\MSHelper.CQRS.Queries.csproj", "{347BCA4C-891F-4F8A-9327-F9C5AD2B78B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.CQRS.Queries", "src\MSHelper.CQRS.Queries\src\MSHelper.CQRS.Queries\MSHelper.CQRS.Queries.csproj", "{347BCA4C-891F-4F8A-9327-F9C5AD2B78B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.CQRS.Commands", "MSHelper.CQRS.Commands", "{8BA379C4-4417-4087-91A7-E10F784EBA81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E88EBC1-AA5B-476A-A1A2-28700F32F9E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.CQRS.Commands", "src\MSHelper.CQRS.Commands\src\MSHelper.CQRS.Commands\MSHelper.CQRS.Commands.csproj", "{EAACEC8E-2171-4287-B372-E4EFAC63C141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.CQRS.Commands", "src\MSHelper.CQRS.Commands\src\MSHelper.CQRS.Commands\MSHelper.CQRS.Commands.csproj", "{EAACEC8E-2171-4287-B372-E4EFAC63C141}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.CQRS.Events", "MSHelper.CQRS.Events", "{03106210-3658-4611-90F5-AB39C0F2A5AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF8816BE-7757-485A-A45C-4EA88B42D073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.CQRS.Events", "src\MSHelper.CQRS.Events\src\MSHelper.CQRS.Events\MSHelper.CQRS.Events.csproj", "{BF1B1AE7-214C-4F5B-A8AA-187AEC5B0713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.CQRS.Events", "src\MSHelper.CQRS.Events\src\MSHelper.CQRS.Events\MSHelper.CQRS.Events.csproj", "{BF1B1AE7-214C-4F5B-A8AA-187AEC5B0713}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.HTTP", "MSHelper.HTTP", "{676F43E2-2BFD-4099-ABEA-66A4532D7149}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{494DCD06-D2B8-47C5-AC90-1A1A60B0A1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.HTTP", "src\MSHelper.HTTP\src\MSHelper.HTTP\MSHelper.HTTP.csproj", "{18B5F1C5-9A02-460E-A8E6-CA117DDF8306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.HTTP", "src\MSHelper.HTTP\src\MSHelper.HTTP\MSHelper.HTTP.csproj", "{18B5F1C5-9A02-460E-A8E6-CA117DDF8306}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Swagger", "MSHelper.Swagger", "{B93FDEF2-AF33-4275-BE91-B5E00CFE9DD0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D018B2EB-2BAB-4C5D-A6F6-8A0017910AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Swagger", "src\MSHelper.Swagger\src\MSHelper.Swagger\MSHelper.Swagger.csproj", "{812295B4-3D52-4C98-885E-11211F335C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Swagger", "src\MSHelper.Swagger\src\MSHelper.Swagger\MSHelper.Swagger.csproj", "{812295B4-3D52-4C98-885E-11211F335C39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Logging", "MSHelper.Logging", "{CB5032EC-4EAB-4DBD-ABB2-14C8C7248C10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0095468D-3DE0-47B8-8C8D-295EBF5456CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Logging", "src\MSHelper.Logging\src\MSHelper.Logging\MSHelper.Logging.csproj", "{08338549-AB8C-45B7-82CF-B5AA1505AD4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Logging", "src\MSHelper.Logging\src\MSHelper.Logging\MSHelper.Logging.csproj", "{08338549-AB8C-45B7-82CF-B5AA1505AD4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Logging.CQRS", "MSHelper.Logging.CQRS", "{85750C9A-6EE0-4EF4-9BDA-828BEF863723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDB880DC-5570-4F38-AD94-9B80F414CA34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Logging.CQRS", "src\MSHelper.Logging.CQRS\src\MSHelper.Logging.CQRS\MSHelper.Logging.CQRS.csproj", "{453A5E69-6213-4345-AAC1-890AC0133524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Logging.CQRS", "src\MSHelper.Logging.CQRS\src\MSHelper.Logging.CQRS\MSHelper.Logging.CQRS.csproj", "{453A5E69-6213-4345-AAC1-890AC0133524}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.WebApi", "MSHelper.WebApi", "{3F12F471-6754-469A-8A96-3200D29DF48A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B071CD8-5DAB-4F11-B4F2-FA89D5EAAFF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.WebApi", "src\MSHelper.WebApi\src\MSHelper.WebApi\MSHelper.WebApi.csproj", "{A656444A-E710-4F3C-A288-47517586A98F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.WebApi", "src\MSHelper.WebApi\src\MSHelper.WebApi\MSHelper.WebApi.csproj", "{A656444A-E710-4F3C-A288-47517586A98F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.WebApi.CQRS", "MSHelper.WebApi.CQRS", "{CC734A67-3FD5-4AB2-95AE-DB83CB01E4C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13DE8377-EFD9-459E-8530-A93F9B6B825E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.WebApi.CQRS", "src\MSHelper.WebApi.CQRS\src\MSHelper.WebApi.CQRS\MSHelper.WebApi.CQRS.csproj", "{9EAB392F-C83F-40DC-9F82-8C04BD4D8192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.WebApi.CQRS", "src\MSHelper.WebApi.CQRS\src\MSHelper.WebApi.CQRS\MSHelper.WebApi.CQRS.csproj", "{9EAB392F-C83F-40DC-9F82-8C04BD4D8192}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.WebApi.Security", "MSHelper.WebApi.Security", "{900D99F4-B00B-47E7-839C-0EFF49BCC176}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC1E4985-4396-4AA8-B82F-6DC31835B580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.WebApi.Security", "src\MSHelper.WebApi.Security\src\MSHelper.WebApi.Security\MSHelper.WebApi.Security.csproj", "{0B4BC648-B9E6-4AF0-8EC0-AFB742BF9F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.WebApi.Security", "src\MSHelper.WebApi.Security\src\MSHelper.WebApi.Security\MSHelper.WebApi.Security.csproj", "{0B4BC648-B9E6-4AF0-8EC0-AFB742BF9F09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.WebApi.Swagger", "MSHelper.WebApi.Swagger", "{046B3A48-9C2B-44BA-AA22-BE5E45D3AA33}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2BE3952-138F-49F2-8F0E-2ED78E53A469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.WebApi.Swagger", "src\MSHelper.WebApi.Swagger\src\MSHelper.WebApi.Swagger\MSHelper.WebApi.Swagger.csproj", "{101C6329-816E-4882-9200-DCBD32E790F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.WebApi.Swagger", "src\MSHelper.WebApi.Swagger\src\MSHelper.WebApi.Swagger\MSHelper.WebApi.Swagger.csproj", "{101C6329-816E-4882-9200-DCBD32E790F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Security", "MSHelper.Security", "{50477941-C905-4F19-B775-D5DB2ABC9A8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E380D52A-C358-4BAD-8A3E-880CEF17AFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Security", "src\MSHelper.Security\src\MSHelper.Security\MSHelper.Security.csproj", "{5DC859CD-DA91-4A04-9EA1-51EEE60E42A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Security", "src\MSHelper.Security\src\MSHelper.Security\MSHelper.Security.csproj", "{5DC859CD-DA91-4A04-9EA1-51EEE60E42A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Secrets.Vault", "MSHelper.Secrets.Vault", "{1B8738E7-E0FF-4F02-A49D-28A2A2C57509}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F43A94C-FCD0-4C8A-BE71-8CA4640C9EA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Secrets.Vault", "src\MSHelper.Secrets.Vault\src\MSHelper.Secrets.Vault\MSHelper.Secrets.Vault.csproj", "{887E459C-9D83-46FF-AC7C-1B11E6EC6BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Secrets.Vault", "src\MSHelper.Secrets.Vault\src\MSHelper.Secrets.Vault\MSHelper.Secrets.Vault.csproj", "{887E459C-9D83-46FF-AC7C-1B11E6EC6BEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers", "MSHelper.MessageBrokers", "{A3FFADAF-5047-4513-8B84-95CD47DA725B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{579A2770-2764-47A8-9922-5EA9222B3F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.MessageBrokers", "src\MSHelper.MessageBrokers\src\MSHelper.MessageBrokers\MSHelper.MessageBrokers.csproj", "{FA57CD10-A1FC-4C70-B071-5AF08B894C41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers", "src\MSHelper.MessageBrokers\src\MSHelper.MessageBrokers\MSHelper.MessageBrokers.csproj", "{FA57CD10-A1FC-4C70-B071-5AF08B894C41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers.CQRS", "MSHelper.MessageBrokers.CQRS", "{12CDAAE0-4C5D-400F-BE01-E08EA5A456BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16B8453D-5770-4F21-B80D-6E661A0435C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.MessageBrokers.CQRS", "src\MSHelper.MessageBrokers.CQRS\src\MSHelper.MessageBrokers.CQRS\MSHelper.MessageBrokers.CQRS.csproj", "{CEEB952E-113F-4813-91F2-DCCBA9352F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers.CQRS", "src\MSHelper.MessageBrokers.CQRS\src\MSHelper.MessageBrokers.CQRS\MSHelper.MessageBrokers.CQRS.csproj", "{CEEB952E-113F-4813-91F2-DCCBA9352F1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers.RabbitMQ", "MSHelper.MessageBrokers.RabbitMQ", "{DB667129-737D-4F83-AE91-560F66B646DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{898CBE68-AE98-49B8-B632-82663A1462B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.MessageBrokers.RabbitMQ", "src\MSHelper.MessageBrokers.RabbitMQ\src\MSHelper.MessageBrokers.RabbitMQ\MSHelper.MessageBrokers.RabbitMQ.csproj", "{A88CE6D0-8A35-467F-A7EA-AD3670BC4312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers.RabbitMQ", "src\MSHelper.MessageBrokers.RabbitMQ\src\MSHelper.MessageBrokers.RabbitMQ\MSHelper.MessageBrokers.RabbitMQ.csproj", "{A88CE6D0-8A35-467F-A7EA-AD3670BC4312}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Tracing.Jaeger", "MSHelper.Tracing.Jaeger", "{31F20696-7A77-482C-BFBE-332BD7D9735C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF9331CD-5C6B-4181-A37D-2B0A77787FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Tracing.Jaeger", "src\MSHelper.Tracing.Jaeger\src\MSHelper.Tracing.Jaeger\MSHelper.Tracing.Jaeger.csproj", "{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Tracing.Jaeger", "src\MSHelper.Tracing.Jaeger\src\MSHelper.Tracing.Jaeger\MSHelper.Tracing.Jaeger.csproj", "{579DDAC6-5F7B-4B5D-AD81-387DF6D2296E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Tracing.Jaeger.RabbitMQ", "MSHelper.Tracing.Jaeger.RabbitMQ", "{33A8155B-6333-458C-A4BC-7A1CD38CE079}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4264B85-6470-4633-9706-CA9FCB029B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Tracing.Jaeger.RabbitMQ", "src\MSHelper.Tracing.Jaeger.RabbitMQ\src\MSHelper.Tracing.Jaeger.RabbitMQ\MSHelper.Tracing.Jaeger.RabbitMQ.csproj", "{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Tracing.Jaeger.RabbitMQ", "src\MSHelper.Tracing.Jaeger.RabbitMQ\src\MSHelper.Tracing.Jaeger.RabbitMQ\MSHelper.Tracing.Jaeger.RabbitMQ.csproj", "{273D08C2-AFE0-4A7B-8F2D-7EBA7F7CD67D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Metrics.AppMetrics", "MSHelper.Metrics.AppMetrics", "{8994E396-7F7C-4C84-BBA9-E9A740C982AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AA862F4-F81E-4832-A4CF-3E2D2EAB8F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Metrics.AppMetrics", "src\MSHelper.Metrics.AppMetrics\src\MSHelper.Metrics.AppMetrics\MSHelper.Metrics.AppMetrics.csproj", "{2F411529-00CE-4ED2-87C4-9DCC7037CD28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Metrics.AppMetrics", "src\MSHelper.Metrics.AppMetrics\src\MSHelper.Metrics.AppMetrics\MSHelper.Metrics.AppMetrics.csproj", "{2F411529-00CE-4ED2-87C4-9DCC7037CD28}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Metrics.Prometheus", "MSHelper.Metrics.Prometheus", "{3166168F-0814-44DC-9E85-F09CF39BE4EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64B395B1-C75E-4850-B5BD-5DBA8CEA74F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Metrics.Prometheus", "src\MSHelper.Metrics.Prometheus\src\MSHelper.Metrics.Prometheus\MSHelper.Metrics.Prometheus.csproj", "{C05E86F6-612E-4A2D-8859-A5445CC981D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Metrics.Prometheus", "src\MSHelper.Metrics.Prometheus\src\MSHelper.Metrics.Prometheus\MSHelper.Metrics.Prometheus.csproj", "{C05E86F6-612E-4A2D-8859-A5445CC981D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Auth.Distributed", "MSHelper.Auth.Distributed", "{E446C5DA-E5C4-4C90-AE15-AA1A5879FC46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9AD4ACC-42EB-4109-A87A-6E79BFDC5E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Auth.Distributed", "src\MSHelper.Auth.Distributed\src\MSHelper.Auth.Distributed\MSHelper.Auth.Distributed.csproj", "{3F6112EA-F616-439B-86C5-8CE92FDD6934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Auth.Distributed", "src\MSHelper.Auth.Distributed\src\MSHelper.Auth.Distributed\MSHelper.Auth.Distributed.csproj", "{3F6112EA-F616-439B-86C5-8CE92FDD6934}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Discovery.Consul", "MSHelper.Discovery.Consul", "{C18BC55A-311F-4E8C-92B8-3DBDA32D2E88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2809D669-0DAC-44E5-AD36-BE597F25699E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.Discovery.Consul", "src\MSHelper.Discovery.Consul\src\MSHelper.Discovery.Consul\MSHelper.Discovery.Consul.csproj", "{F29F1877-8B47-4497-996C-4ACA0F4FA47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Discovery.Consul", "src\MSHelper.Discovery.Consul\src\MSHelper.Discovery.Consul\MSHelper.Discovery.Consul.csproj", "{F29F1877-8B47-4497-996C-4ACA0F4FA47D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.HTTP.RestEase", "MSHelper.HTTP.RestEase", "{112D1629-B4C8-4AE6-862B-EDE962935E0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7ECA7ED8-9CE9-4B30-8FED-DEB9FB3A8709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHelper.HTTP.RestEase", "src\MSHelper.HTTP.RestEase\src\MSHelper.HTTP.RestEase\MSHelper.HTTP.RestEase.csproj", "{2FAAD0AD-DC4D-4015-B1C1-4FAC46D463BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.HTTP.RestEase", "src\MSHelper.HTTP.RestEase\src\MSHelper.HTTP.RestEase\MSHelper.HTTP.RestEase.csproj", "{2FAAD0AD-DC4D-4015-B1C1-4FAC46D463BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.LoadBalancing.Fabio", "MSHelper.LoadBalancing.Fabio", "{AE493180-72BD-4D62-B977-933D2F7ED4E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE0BC421-A849-46A3-B6A3-0FF00953BB31}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.LoadBalancing.Fabio", "src\MSHelper.LoadBalancing.Fabio\src\MSHelper.LoadBalancing.Fabio\MSHelper.LoadBalancing.Fabio.csproj", "{DBA2A48E-67A0-473E-87AC-0384502A071C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers.Outbox", "MSHelper.MessageBrokers.Outbox", "{C7851D6A-F0F3-4D29-B8A5-6B20DC51A2C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5859E68A-FA37-4A70-9E7F-7E2CEBFED0A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers.Outbox", "src\MSHelper.MessageBrokers.Outbox\src\MSHelper.MessageBrokers.Outbox\MSHelper.MessageBrokers.Outbox.csproj", "{150532D6-0328-45A6-A636-F9E41E70B5EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers.Outbox.EntityFramework", "MSHelper.MessageBrokers.Outbox.EntityFramework", "{04756569-FD42-418E-98EA-A1AB950B7A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1FDEA95C-7D0B-4F62-B912-7FEBCA821D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers.Outbox.EntityFramework", "src\MSHelper.MessageBrokers.Outbox.EntityFramework\src\MSHelper.MessageBrokers.Outbox.EntityFramework\MSHelper.MessageBrokers.Outbox.EntityFramework.csproj", "{B09B8DB5-F23B-4211-B601-08CF7A31F2A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.MessageBrokers.Outbox.Mongo", "MSHelper.MessageBrokers.Outbox.Mongo", "{C8863EC6-492B-4D29-88B6-15A47BF8755D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02A090AC-1393-48A9-B248-0FD21A5A26BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.MessageBrokers.Outbox.Mongo", "src\MSHelper.MessageBrokers.Outbox.Mongo\src\MSHelper.MessageBrokers.Outbox.Mongo\MSHelper.MessageBrokers.Outbox.Mongo.csproj", "{862D7A5D-3B11-48C2-B654-6910E995356A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Persistence.MongoDB", "MSHelper.Persistence.MongoDB", "{C529C1BF-E965-41EA-810E-60E35FD61BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD9154D8-68C1-4616-AC7D-752E62EA0772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Persistence.MongoDB", "src\MSHelper.Persistence.MongoDB\src\MSHelper.Persistence.MongoDB\MSHelper.Persistence.MongoDB.csproj", "{8A3DBA37-6950-4CC7-ADA7-344989818FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Persistence.OpenStack.OCS", "MSHelper.Persistence.OpenStack.OCS", "{0BED9F42-3826-4BDC-A6A6-1CDAC320DD0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D092629-76E4-4B23-960D-6ADDD33827B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Persistence.OpenStack.OCS", "src\MSHelper.Persistence.OpenStack.OCS\src\MSHelper.Persistence.OpenStack.OCS\MSHelper.Persistence.OpenStack.OCS.csproj", "{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSHelper.Persistence.Redis", "MSHelper.Persistence.Redis", "{5EB2DC2F-9279-4EFB-843A-DED818233812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{899B228F-5E17-4399-93BC-B86A55D83584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSHelper.Persistence.Redis", "src\MSHelper.Persistence.Redis\src\MSHelper.Persistence.Redis\MSHelper.Persistence.Redis.csproj", "{249FCCA7-2648-4182-9289-26E6A26B9E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +307,30 @@ Global
 		{DBA2A48E-67A0-473E-87AC-0384502A071C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBA2A48E-67A0-473E-87AC-0384502A071C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBA2A48E-67A0-473E-87AC-0384502A071C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150532D6-0328-45A6-A636-F9E41E70B5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150532D6-0328-45A6-A636-F9E41E70B5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150532D6-0328-45A6-A636-F9E41E70B5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150532D6-0328-45A6-A636-F9E41E70B5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09B8DB5-F23B-4211-B601-08CF7A31F2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09B8DB5-F23B-4211-B601-08CF7A31F2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09B8DB5-F23B-4211-B601-08CF7A31F2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09B8DB5-F23B-4211-B601-08CF7A31F2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862D7A5D-3B11-48C2-B654-6910E995356A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862D7A5D-3B11-48C2-B654-6910E995356A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862D7A5D-3B11-48C2-B654-6910E995356A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862D7A5D-3B11-48C2-B654-6910E995356A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3DBA37-6950-4CC7-ADA7-344989818FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3DBA37-6950-4CC7-ADA7-344989818FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3DBA37-6950-4CC7-ADA7-344989818FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3DBA37-6950-4CC7-ADA7-344989818FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249FCCA7-2648-4182-9289-26E6A26B9E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249FCCA7-2648-4182-9289-26E6A26B9E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249FCCA7-2648-4182-9289-26E6A26B9E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249FCCA7-2648-4182-9289-26E6A26B9E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -354,6 +414,24 @@ Global
 		{AE493180-72BD-4D62-B977-933D2F7ED4E0} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
 		{CE0BC421-A849-46A3-B6A3-0FF00953BB31} = {AE493180-72BD-4D62-B977-933D2F7ED4E0}
 		{DBA2A48E-67A0-473E-87AC-0384502A071C} = {CE0BC421-A849-46A3-B6A3-0FF00953BB31}
+		{C7851D6A-F0F3-4D29-B8A5-6B20DC51A2C5} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{5859E68A-FA37-4A70-9E7F-7E2CEBFED0A5} = {C7851D6A-F0F3-4D29-B8A5-6B20DC51A2C5}
+		{150532D6-0328-45A6-A636-F9E41E70B5EC} = {5859E68A-FA37-4A70-9E7F-7E2CEBFED0A5}
+		{04756569-FD42-418E-98EA-A1AB950B7A7A} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{1FDEA95C-7D0B-4F62-B912-7FEBCA821D11} = {04756569-FD42-418E-98EA-A1AB950B7A7A}
+		{B09B8DB5-F23B-4211-B601-08CF7A31F2A3} = {1FDEA95C-7D0B-4F62-B912-7FEBCA821D11}
+		{C8863EC6-492B-4D29-88B6-15A47BF8755D} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{02A090AC-1393-48A9-B248-0FD21A5A26BE} = {C8863EC6-492B-4D29-88B6-15A47BF8755D}
+		{862D7A5D-3B11-48C2-B654-6910E995356A} = {02A090AC-1393-48A9-B248-0FD21A5A26BE}
+		{C529C1BF-E965-41EA-810E-60E35FD61BD0} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{AD9154D8-68C1-4616-AC7D-752E62EA0772} = {C529C1BF-E965-41EA-810E-60E35FD61BD0}
+		{8A3DBA37-6950-4CC7-ADA7-344989818FF9} = {AD9154D8-68C1-4616-AC7D-752E62EA0772}
+		{0BED9F42-3826-4BDC-A6A6-1CDAC320DD0E} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{2D092629-76E4-4B23-960D-6ADDD33827B3} = {0BED9F42-3826-4BDC-A6A6-1CDAC320DD0E}
+		{B24F9091-7B3B-450F-A2C8-8DE15FAEECDC} = {2D092629-76E4-4B23-960D-6ADDD33827B3}
+		{5EB2DC2F-9279-4EFB-843A-DED818233812} = {02D58EA5-7D7E-4F6D-A5D8-03DBD63EE071}
+		{899B228F-5E17-4399-93BC-B86A55D83584} = {5EB2DC2F-9279-4EFB-843A-DED818233812}
+		{249FCCA7-2648-4182-9289-26E6A26B9E7D} = {899B228F-5E17-4399-93BC-B86A55D83584}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88F722CC-21D1-43CA-99B0-1FF02005A7DD}
